@@ -2,6 +2,7 @@
 using SuperSocket.SocketBase.Config;
 using Protocol;
 using System;
+using LockStepDemo.Service.Service.AI;
 
 public class SyncService : AppServer<SyncSession, ProtocolRequestBase>
 {

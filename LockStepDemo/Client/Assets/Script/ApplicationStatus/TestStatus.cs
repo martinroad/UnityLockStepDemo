@@ -7,7 +7,7 @@ public class TestStatus : IApplicationStatus {
     public override void OnEnterStatus()
     {
         NetworkManager.Init<ProtocolService>();
-        NetworkManager.SetServer("127.0.0.1", 2012);
+        NetworkManager.SetServer("47.106.106.108", 2012);
         NetworkManager.Connect();
 
         ProtocolAnalysisService.Init();
