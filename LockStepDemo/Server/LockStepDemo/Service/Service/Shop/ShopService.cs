@@ -6,7 +6,7 @@ using System.Text;
 
 public class ShopService : ServiceBase
 {
-    public override void OnInit(IServerConfig config)
+    protected override void OnInit(IServerConfig config)
     {
         EventService.AddTypeEvent<PlayerSelectCharacter_s>(ReceviceSelectCharacter);
         EventService.AddTypeEvent<PlayerBuyCharacter_s>(RecveviceBuyCharacter);

@@ -9,7 +9,7 @@ public class MatchService : ServiceBase
     int roomPeopleNum = 2;
     List<Player> matchList = new List<Player>(); //匹配列表
 
-    public override void OnInit(IServerConfig config)
+    protected override void OnInit(IServerConfig config)
     {
         EventService.AddTypeEvent<PlayerMatchMsg_s>(ReceviceMatchMsg);
 
@@ -43,7 +43,7 @@ public class MatchService : ServiceBase
         }
     }
 
-    public override void OnPlayerLogout(Player player)
+    protected override void OnPlayerLogout(Player player)
     {
         CancelMatch(player);
     }

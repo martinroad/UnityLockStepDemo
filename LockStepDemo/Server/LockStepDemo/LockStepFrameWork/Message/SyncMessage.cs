@@ -41,6 +41,7 @@ namespace Protocol
     {
         public int frame;
         public List<EntityInfo> infos;
+        public List<Int32> destroyList;
 
         //public List<int> destroyList;
     }

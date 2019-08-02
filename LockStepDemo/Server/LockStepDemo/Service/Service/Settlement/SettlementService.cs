@@ -8,7 +8,7 @@ using System.Text;
 class SettlementService : ServiceBase
 {
 
-    public override void OnInit(IServerConfig config)
+    protected override void OnInit(IServerConfig config)
     {
         EventService.AddEvent(ServiceEventDefine.ServiceEvent.GameFinsih, OnGameFinsih);
     }

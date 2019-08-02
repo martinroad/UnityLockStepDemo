@@ -12,7 +12,7 @@ public class LoginService : ServiceBase
 
     Dictionary<string, Player> m_onLinePlayer = new Dictionary<string, Player>();
 
-    public override void OnInit(IServerConfig config)
+    protected override void OnInit(IServerConfig config)
     {
         EventService.AddTypeEvent<PlayerLoginMsg_s>(RecevicePlayerLogin);
     }
@@ -31,7 +31,7 @@ public class LoginService : ServiceBase
         m_service.OnPlayerLogout(session.player);
     }
 
-    public override void OnPlayerLogout(Player player)
+    protected override void OnPlayerLogout(Player player)
     {
         if(m_onLinePlayer.ContainsKey(player.playerID))
         {
@@ -43,7 +43,7 @@ public class LoginService : ServiceBase
         }
     }
 
-    public override void OnPlayerLogin(Player player)
+    protected override void OnPlayerLogin(Player player)
     {
         if (!m_onLinePlayer.ContainsKey(player.playerID))
         {

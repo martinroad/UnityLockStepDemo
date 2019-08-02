@@ -50,7 +50,7 @@ public class ResurgenceSystem :SystemBase
         }
     }
 
-    public override void OnEntityCompChange(EntityBase entity, string compName, ComponentBase previousComponent, ComponentBase newComponent)
+    protected override void OnEntityCompChange(EntityBase entity, string compName, ComponentBase previousComponent, ComponentBase newComponent)
     {
         if(compName == "LifeComponent")
         {

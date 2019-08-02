@@ -29,3 +29,7 @@ E:\unityProject\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\bin\Debug\Loc
 E:\unityProject\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.exe
 E:\unityProject\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.pdb
 E:\unityProject\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.csprojResolveAssemblyReference.cache
+D:\server_workspace\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.csprojAssemblyReference.cache
+D:\server_workspace\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.csproj.CoreCompileInputs.cache
+D:\server_workspace\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.exe
+D:\server_workspace\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\obj\Debug\LockStepDemo.pdb
